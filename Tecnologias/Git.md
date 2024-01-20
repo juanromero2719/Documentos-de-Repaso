@@ -357,3 +357,14 @@ Especificar la persona la cual hizo los cambios y la persona que revisara estos 
 Una vez comprobados los cambios al momento de realizar la migracion a main se importante especificar en la descripcion usando el simbolo de "!" el branch que se esta subiendo 
 
 ![](imagenes/testtomain.png)
+
+# Clonacion de un reposotorio GITLAB
+
+* Paso 1: Ingresar a GitLab al Proyecto en cuestion y copiar la ruta del repositorio HTTPS
+* Paso 2: Abrir la terminal de GitBash en la carpeta donde se desea clonar el repositorio
+* Paso 3: Ejecutar el comando `git clone` y pegar la ruta del repositorio HTTPS
+* Paso 4: Para agregar ramas adicionales es necesario crear nuevamente la rama con `git checkout -b nombre_de_la_rama`
+* Paso 5: Para actualizar la rama en la aplicacion realizamos el siguiente comando `git pull origin nonbre_de_la_rama`
+
+
+
